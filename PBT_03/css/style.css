@@ -1,0 +1,7 @@
+body { font-size: 16px; color: #333; } /* (0,0,1) */
+.container { font-size: 14px; } /* (0,1,0) */
+.card { color: blue; } /* (0,1,0) */
+.card .title { font-size: 20px; } /* (0,2,0) */
+.card p { color: inherit; } /* (0,1,1) */
+#featured .title { color: red; } /* (1,1,0) */
+.highlight { color: green !important; } /* max */
