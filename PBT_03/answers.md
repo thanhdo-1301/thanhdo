@@ -112,7 +112,7 @@ p {
 7. `a[href="/"]`  → Chọn: `<a href="/" class="active">Home</a>`
 8. `.top-bar.dark h1` → Chọn: `<h1>ShopTLU</h1>`
 
-![alt text](./ScreenShot/image.png)
+![alt text](./asset/ScreenShot/image.png)
 
 ***Tài liệu tham chiếu:*** https://github.com/hieutachi/CCC_Frontend_2026/blob/main/tuan_2_css_core/09_css_selectors.md#-5-lo%E1%BA%A1i-selector--t%E1%BB%AB-r%E1%BB%99ng-%C4%91%E1%BA%BFn-h%E1%BA%B9p
 
@@ -207,7 +207,7 @@ p.price { color: green; }             /* Rule D */
 
 ### Bài B1:
 
-![alt text](./ScreenShot/image-B1.png)
+![alt text](./asset/ScreenShot/image-B1.png)
 
 ### Bài B2:
 
@@ -215,11 +215,11 @@ p.price { color: green; }             /* Rule D */
 
 - Hộp 1:
 
-![alt text](./ScreenShot/image1-B2.png)
+![alt text](./asset/ScreenShot/image1-B2.png)
 
 - Hộp 2:
 
-![alt text](./ScreenShot/image2-B2.png)
+![alt text](./asset/ScreenShot/image2-B2.png)
 
 Hộp 1 (content-box): chiều rộng thực tế =  350px (đo từ DevTools)
 
@@ -235,15 +235,15 @@ Hộp 2 (border-box): chiều rộng thực tế = 300px (đo từ DevTools)
 
 **Sidebar:** 
 
-![alt text](./ScreenShot/image-1B2.png)
+![alt text](./asset/ScreenShot/image-1B2.png)
 
 **Content:**
 
-![alt text](./ScreenShot/image-2B2.png)
+![alt text](./asset/ScreenShot/image-2B2.png)
 
 **Ads:**
 
-![alt text](./ScreenShot/image-B2.png)
+![alt text](./asset/ScreenShot/image-B2.png)
 
 **Tổng** = 970px(Sidebar) + 960px(Content) + 970px(Ads) = 2900px
 
@@ -251,15 +251,15 @@ Hộp 2 (border-box): chiều rộng thực tế = 300px (đo từ DevTools)
 
 **Sidebar:** 
 
-![alt text](./ScreenShot/image2-0B2.png)
+![alt text](./asset/ScreenShot/image2-0B2.png)
 
 **Content:**
 
-![alt text](./ScreenShot/image2-1B2.png)
+![alt text](./asset/ScreenShot/image2-1B2.png)
 
 **Ads:**
 
-![alt text](./ScreenShot/image2-2B2.png)
+![alt text](./asset/ScreenShot/image2-2B2.png)
 
 **Tổng** = 250px(Sidebar) + 500px(Content) + 250px(Ads) = 1000px
 
@@ -323,7 +323,7 @@ p.text.highlight#demo{
 
 3. Kết quả:
 
-![alt text](./ScreenShot/image-B3.png)
+![alt text](./asset/ScreenShot/image-B3.png)
 
 4. Thay đổi thứ tự rules trong CSS file không làm thay đổi các property vì specificity mức thấp không thể đè lên mức cao, chỉ có thể đè lên khi có cùng mức độ và được liệt kê cuối cùng
 
@@ -383,7 +383,7 @@ p.text.highlight#demo{
 3. Cách sửa là dùng `border-box`: khi dùng border-box khối tổng width của sidebar và content = 300px + 660px = 960px = width của container. Cách thứ hai là đặt `display: flex` trong container để kích thước các khối luôn nằm vừa vặn trên 1 hàng
 4. Chứng minh 2 cách hoạt động:
 
-![alt text](./ScreenShot/image-C1.png)
+![alt text](./asset/ScreenShot/image-C1.png)
 
 ***Tài liệu tham chiếu:*** https://github.com/hieutachi/CCC_Frontend_2026/blob/main/tuan_2_css_core/11_box_model.md#2-border-box--gi%E1%BA%A3i-ph%C3%A1p-m%E1%BB%99t-d%C3%B2ng-c%E1%BB%A9u-ng%C3%A0n-d%C3%B2ng
 ### Câu C2:
@@ -420,6 +420,6 @@ body { font-size: 16px; color: #333; } /* (0,0,1) */
 
 **Chạy code:**
 
-![alt text](./ScreenShot/image-C2.png)
+![alt text](./asset/ScreenShot/image-C2.png)
 
 ***Tài liệu tham chiếu:*** https://github.com/hieutachi/CCC_Frontend_2026/blob/main/tuan_2_css_core/09_css_selectors.md#%EF%B8%8F-specificity--ai-th%E1%BA%AFng-khi-xung-%C4%91%E1%BB%99t
