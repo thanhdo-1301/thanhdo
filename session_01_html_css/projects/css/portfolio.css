@@ -42,6 +42,12 @@
     object-fit: cover;
     transition: transform 0.4s ease;
 }
+.portfolio-section h2 {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: var(--color-dark);
+}
 
 .portfolio-item:hover img {
     transform: scale(1.1);
@@ -63,8 +69,14 @@
     opacity: 1;
 }
 
-.portfolio-overlay h3 { color: white; margin-bottom: 0.25rem; }
-.portfolio-overlay p { color: #cbd5e1; }
+.portfolio-overlay h3 { 
+    color: white; 
+    margin-bottom: 0.25rem; 
+}
+
+.portfolio-overlay p { 
+    color: #cbd5e1; 
+}
 
 .lightbox {
     position: fixed;
